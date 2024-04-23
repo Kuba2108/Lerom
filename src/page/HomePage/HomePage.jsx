@@ -1,17 +1,15 @@
-
 import News from "../../components/News/News.jsx";
-import Category from '../../components/Category/Category'
-import Presentation from '../../components/Presentation/Presentation'
-
+import Category from "../../components/Category/Category";
+import Presentation from "../../components/Presentation/Presentation";
 
 const HomePage = () => {
   return (
     <div>
-       <Category/>
-        <Presentation/>
-        <News/>
+      <Category />
+      <Presentation />
+      <News />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
