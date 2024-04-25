@@ -85,9 +85,8 @@ const Header = () => {
                     <button onClick={() => setOpen(!open)}
                             className="flex items-center gap-2 text-red-700 active:text-blue-500 relative  ">
 
-                        <Modal_menu/>
+                        <Modal_menu/></button>
 
-                    </button>
                     <NavLink to="/about_us">О нас</NavLink>
                     <NavLink to="/3D-моделирование">3D-моделирование</NavLink>
                     <NavLink to="/to_buyer">Покупателю</NavLink>
