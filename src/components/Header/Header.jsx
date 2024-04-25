@@ -88,10 +88,10 @@ const Header = () => {
                         <Modal_menu/>
 
                     </button>
-                    <NavLink to="/about_us">О нас</NavLink>
+                    <NavLink to="">Главная</NavLink>
                     <NavLink to="/3D-моделирование">3D-моделирование</NavLink>
                     <NavLink to="/to_buyer">Покупателю</NavLink>
-                    <NavLink to="/delivery">Доставка и оплата</NavLink>
+                    <NavLink to="/Payment">Доставка и оплата</NavLink>
 
                 </nav>
 
