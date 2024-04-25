@@ -19,7 +19,7 @@ const Modal = () => {
     };
 
     return (
-        <div className="">
+        <div className=" z-50">
 
             <button
                 onClick={openModal}

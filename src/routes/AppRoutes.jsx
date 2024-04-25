@@ -5,8 +5,8 @@ import HomePage from '../page/HomePage/HomePage'
 import Footer from '../components/Footer/Footer'
 import HomeNews from "../components/News/HomeNews.jsx";
 import About_Us from "../components/about_us/About_Us.jsx";
-import Threed_modeling from "../components/threed_modeling/Threed_modeling.jsx";
-import To_buyer from "../components/to_buyer/To_buyer.jsx";
+import Threed_modeling from "../page/threed_modeling/Threed_modeling.jsx";
+import To_buyer from "../page/to_buyer/To_buyer.jsx";
 import Delivery from "../components/delivery/Delivery.jsx";
 
 
@@ -15,7 +15,7 @@ const Root = () => {
         <>
             <Header />
             <Outlet />
-            {/*<Footer/>*/}
+            <Footer/>
         </>
     )
 }
