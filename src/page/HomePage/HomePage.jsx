@@ -1,19 +1,18 @@
 import News from "../../components/News/News.jsx";
 import Category from "../../components/Category/Category";
 import Presentation from "../../components/Presentation/Presentation";
-import Ckarusel from "../../components/Ckarusel/Ckarusel.jsx";
-import Order from "../../components/order/Order.jsx";
+import Slider from "../../components/Slider/Slider.jsx";
+
 
 const HomePage = () => {
-  return (
-    <div>
-        <Ckarusel/>
-      <Category />
-      <Presentation />
-      <News />
-        <Order/>
-    </div>
-  );
+    return (
+        <div>
+            <Slider/>
+            <Category/>
+            <Presentation/>
+            <News/>
+        </div>
+    );
 };
 
 export default HomePage;
