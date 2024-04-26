@@ -4,17 +4,17 @@ import Presentation from "../../components/Presentation/Presentation";
 import Slider from "../../components/Slider/Slider.jsx";
 import Order from "../../components/order/Order.jsx";
 
+
 const HomePage = () => {
-  return (
-    <div>
-        <Slider/>
-      <Category />
-      <Presentation />
-      <News />
-        <Order/>
-    </div>
-  );
+    return (
+        <div>
+            <Slider/>
+            <Category/>
+            <Presentation/>
+            <News/>
+        </div>
+    );
 
 };
 
-export default HomePage;
+export default HomePage
