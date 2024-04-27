@@ -1,4 +1,5 @@
 import React, {useRef, useState} from 'react';
+import {AiOutlineCaretDown} from "react-icons/ai";
 
 const Modal = () => {
     const [isOpen, setIsOpen] = useState(false);

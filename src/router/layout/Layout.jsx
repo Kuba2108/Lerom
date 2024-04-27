@@ -12,7 +12,6 @@ export default function Layout() {
                     <Header/>
                     <Outlet/>
                     <Footer/>
-
                 </>
             </Container>
 
