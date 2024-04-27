@@ -1,6 +1,8 @@
 import React from 'react';
+import {useNavigate} from "react-router";
 
 const ErrorElement = () => {
+    const navigate=useNavigate()
     return (
         <main className="flex items-center justify-center gap-[30px] my-[100px]">
             <div>
@@ -32,7 +34,7 @@ const ErrorElement = () => {
                                 <polyline points="22 176,165 176" />
                                 <polyline points="22 198,94 198" />
                             </g>
-                            <polyline class="paper__tear" points="0 148,31 138,62 148,93 138,124 148,155 138,187 148" stroke-dasharray="198 198" stroke-dashoffset="-198" />
+                            <polyline className="paper__tear" points="0 148,31 138,62 148,93 138,124 148,155 138,187 148" stroke-dasharray="198 198" stroke-dashoffset="-198" />
                         </g>
                     </g>
                 </svg>
@@ -41,7 +43,7 @@ const ErrorElement = () => {
             <div>
                 <h1 className="text-[50px] font-bold mb-3 ">404</h1>
                 <p className="w-[450px] text-[20px] font-medium mb-[30px]">We couldn’t find the page you were looking for. It may have been moved, or it just doesn’t exist.</p>
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-6 border border-blue-500 hover:border-transparent transition rounded-[20px]">Go Back Home</button>
+                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-6 border border-blue-500 hover:border-transparent transition rounded-[20px]" onClick={()=>navigate("/")}>Go Back Home</button>
             </div>
         </main>
     );
