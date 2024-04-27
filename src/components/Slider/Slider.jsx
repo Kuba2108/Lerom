@@ -25,20 +25,20 @@ import { Navigation } from 'swiper/modules';
 
 const Slider = () => {
     return (
-        <div>
+        <div className="sm:w-[740px] ml-[15px] h-[400px]">
 
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper" loop={true}>
                 <SwiperSlide>
                     <div>
-                        <div className="absolute flex flex-col ml-[260px] mt-[50px] ">
-                            <h1 className="font-bold text-[38px] text-white">Производим мебель <br/>
+                        <div className="absolute flex flex-col ml-[260px] mt-[50px] sm: mt-[25px] flex ">
+                            <h1 className="font-bold text-[38px] text-white sm:text-[25px] ">Производим мебель <br/>
                                 с 1997 года</h1>
 
-                            <p className="text-[18px] font-normal text-white mt-[22px]">Мы готовы принять и передать ваш заказ
+                            <p className="text-[18px] font-normal text-white mt-[22px] sm:text-[14px] mt-[0]">Мы готовы принять и передать ваш заказ
                                 на мебель <br/>
                                 региональному представительству.</p>
 
-                            <p className="text-[16px] font-light text-white mb-[39px] mt-[15px]">Для этого пришлите ваши
+                            <p className="text-[16px] font-light text-white mb-[39px] mt-[15px] sm: mt-[1px] text-[12px]">Для этого пришлите ваши
                                 пожелания и контактную <br/>
                                 информацию нам на почту
                                 zakaz@lerom.ru</p>
@@ -80,7 +80,8 @@ const Slider = () => {
                         <img src={Logo0} alt="img"/>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+
+       <SwiperSlide>
                     <div>
                         <div className="absolute ml-[260px] mt-[50px]">
                             <h1 className="font-extrabold text-[50px] text-white">обновлёная <br/> “мелисса” “камелия”</h1>
@@ -218,7 +219,6 @@ const Slider = () => {
                         <img src={Logo3} alt="img"/>
                     </div>
                 </SwiperSlide>
-
             </Swiper>
 
         </div>
