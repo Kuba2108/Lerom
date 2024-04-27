@@ -22,12 +22,6 @@ const Modal = () => {
 
     return (
         <div className="z-50">
-
-            <button
-                onClick={openModal}
-                className=" text-black font-bold flex items-center">
-                Каталог  className="ml-[10px]"/>
-            </button>
                 <button
                     onClick={toggleModal}
                     className=" text-red-700 font-bold flex items-center">

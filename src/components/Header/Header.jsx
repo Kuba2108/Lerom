@@ -117,34 +117,34 @@ const Header = () => {
                     <hr/>
                 </div>
 
-                <div className="flex justify-around items-center mb-[20px]">
-                    <nav className="flex gap-[43px] text-[16px] font-normal">
+                {/*<div className="flex justify-around items-center mb-[20px]">*/}
+                {/*    <nav className="flex gap-[43px] text-[16px] font-normal">*/}
 
-                        <button onClick={() => setOpen(!open)}
-                                className="flex items-center gap-2 text-red-700 active:text-blue-500 relative">
-                            <Modal_menu/>
-                        </button>
+                {/*        <button onClick={() => setOpen(!open)}*/}
+                {/*                className="flex items-center gap-2 text-red-700 active:text-blue-500 relative">*/}
+                {/*            <Modal_menu/>*/}
+                {/*        </button>*/}
 
-                        <NavLink to="">Главная</NavLink>
-                        <NavLink to="/3D-моделирование">3D-моделирование</NavLink>
-                        <NavLink to="/to_buyer">Покупателю</NavLink>
-                        <NavLink to="/Payment">Доставка и оплата</NavLink>
+                {/*        <NavLink to="">Главная</NavLink>*/}
+                {/*        <NavLink to="/3D-моделирование">3D-моделирование</NavLink>*/}
+                {/*        <NavLink to="/to_buyer">Покупателю</NavLink>*/}
+                {/*        <NavLink to="/Payment">Доставка и оплата</NavLink>*/}
 
-                    </nav>
+                {/*    </nav>*/}
 
-                    <div className="flex items-center border border-blue-500 rounded-[20px]">
+                {/*    <div className="flex items-center border border-blue-500 rounded-[20px]">*/}
 
-                        <input
-                            className="w-[330px] h-[35px] px-[20px] py-[10px]   border-0 bg-transparent focus:outline-none "
-                            type="text"
-                            placeholder="Поиск по сайту..."/>
-                        <p className="pr-[3px]">
-                            <SvgSearch/>
-                        </p>
+                {/*        <input*/}
+                {/*            className="w-[330px] h-[35px] px-[20px] py-[10px]   border-0 bg-transparent focus:outline-none "*/}
+                {/*            type="text"*/}
+                {/*            placeholder="Поиск по сайту..."/>*/}
+                {/*        <p className="pr-[3px]">*/}
+                {/*            <SvgSearch/>*/}
+                {/*        </p>*/}
 
-                    </div>
+                {/*    </div>*/}
 
-                </div>
+                {/*</div>*/}
         </>
 
 
