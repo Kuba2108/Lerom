@@ -35,16 +35,17 @@ const Modal = () => {
             {isOpen && (
                 <div onClick={handleOutsideClick}
                      className="w-[268px] h-[400px] absolute top-[50px] border-[1px] border-t-red-50 rounded-[15px] bg-white
-                    sm:top-[30px] w-[168px] h-[311px] ">
+                    sm:top-[70px] sm:bg-blue-400 sm:w-[368px] sm:h-[511px] ">
+
 
                     <div>
 
-                        <nav className="flex flex-col">
+                        <nav className="flex flex-col ">
                             <div>
                                 <a href="#"
                                    className="text-left text-[16px] text-black font-semibold mt-[14px] ml-[24px] flex items-center justify-between
-                                   sm:text-[13px] mt-[5px]">
-                                    Новинки <AiOutlineCaretDown className="mr-[10px] sm:text-[10px]"/>
+                                   sm:text-[30px] sm:text-white">
+                                    Новинки <AiOutlineCaretDown className="mr-[10px]"/>
 
                                 </a>
                                 <hr className="mt-[10px]"/>
@@ -52,8 +53,8 @@ const Modal = () => {
                             <div>
                                 <a href="#"
                                    className="text-left text-[16px] text-black font-semibold mt-[14px] ml-[24px] flex items-center justify-between
-                                   sm:text-[13px]">
-                                    Гостинные <AiOutlineCaretDown className="mr-[10px] sm:text-[10px]"/>
+                                   sm:text-[30px] sm:text-white">
+                                    Гостинные <AiOutlineCaretDown className="mr-[10px] "/>
 
                                 </a>
                                 <hr className="mt-[10px]"/>
@@ -61,8 +62,8 @@ const Modal = () => {
                             <div>
                                 <a href="#"
                                    className="text-left text-[16px] text-black font-semibold mt-[14px] ml-[24px] flex items-center justify-between
-                                   sm:text-[13px]">
-                                    Прихожие <AiOutlineCaretDown className="mr-[10px] sm:text-[10px]"/>
+                                  sm:text-[30px] sm:text-white">
+                                    Прихожие <AiOutlineCaretDown className="mr-[10px] "/>
 
                                 </a>
                                 <hr className="mt-[10px]"/>
@@ -70,8 +71,8 @@ const Modal = () => {
                             <div>
                                 <a href="#"
                                    className="text-left text-[16px] text-black font-semibold mt-[14px] ml-[24px] flex items-center justify-between
-                                   sm:text-[13px]">
-                                    Спальни <AiOutlineCaretDown className="mr-[10px] sm:text-[10px]"/>
+                                   sm:text-[30px] sm:text-white">
+                                    Спальни <AiOutlineCaretDown className="mr-[10px]"/>
 
                                 </a>
                                 <hr className="mt-[10px]"/>
@@ -79,8 +80,8 @@ const Modal = () => {
                             <div>
                                 <a href="#"
                                    className="text-left text-[16px] text-black font-semibold mt-[14px] ml-[24px] flex items-center justify-between
-                                   sm:text-[13px]">
-                                    Детские <AiOutlineCaretDown className="mr-[10px] sm:text-[10px]"/>
+                                  sm:text-[30px] sm:text-white">
+                                    Детские <AiOutlineCaretDown className="mr-[10px] "/>
 
                                 </a>
                                 <hr className="mt-[10px]"/>
@@ -88,8 +89,8 @@ const Modal = () => {
                             <div>
                                 <a href="#"
                                    className="text-left text-[16px] text-black font-semibold mt-[14px] ml-[24px] flex items-center justify-between
-                                   sm:text-[13px]">
-                                    Кровати <AiOutlineCaretDown className="mr-[10px] sm:text-[10px]"/>
+                                   sm:text-[30px] sm:text-white">
+                                    Кровати <AiOutlineCaretDown className="mr-[10px] "/>
 
                                 </a>
                                 <hr className="mt-[10px]"/>
@@ -97,8 +98,8 @@ const Modal = () => {
                             <div>
                                 <a href="#"
                                    className="text-left text-[16px] text-black font-semibold mt-[14px] ml-[24px] flex items-center justify-between
-                                   sm:text-[13px]">
-                                    Матрасы <AiOutlineCaretDown className="mr-[10px] sm:text-[10px] "/></a>
+                                   sm:text-[30px] sm:text-white">
+                                    Матрасы <AiOutlineCaretDown className="mr-[10px]"/></a>
                                 <hr className="mt-[10px]"/>
                             </div>
 
@@ -106,15 +107,6 @@ const Modal = () => {
 
                     </div>
 
-                    {/*<div className="absolute text-red font-bold pt-[25px] pl-[190px] sm: ">*/}
-                    {/*    <button*/}
-                    {/*        onClick={closeModal}*/}
-                    {/*        className=""*/}
-                    {/*        type="button"*/}
-                    {/*        style={{transition: 'all .15s ease'}}>*/}
-                    {/*        Закрыть*/}
-                    {/*    </button>*/}
-                    {/*</div>*/}
 
                 </div>
             )}

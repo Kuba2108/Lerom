@@ -35,7 +35,7 @@ const Header = () => {
 
 
                         <div>
-                            <img src={Logo} alt="img_logo" className="w-[185px] h-[92px] sm:w-[390px] h-[200px]  "/>
+                            <img src={Logo} alt="img_logo" className="w-[185px] h-[92px] sm:w-[390px] h-[245px] "/>
                         </div>
 
 
@@ -82,12 +82,10 @@ const Header = () => {
 
 
 
-                    <div className="flex justify-around items-center mb-[20px]">
+                    <div className="flex justify-around items-center mb-[20px] sm:flex flex-col">
 
 
-
-
-                        <nav className="flex gap-[43px] text-[16px] font-normal">
+                        <nav className="flex gap-[43px] text-[16px] font-normal sm:text-[30px] sm:font-semibold sm:mb-[15px]">
 
                             <button onClick={() => setOpen(!open)}
                                     className="flex items-center gap-2 text-red-700 active:text-blue-500 relative">
@@ -102,13 +100,15 @@ const Header = () => {
 
                         </nav>
 
-                        <div className="flex items-center border border-blue-500 rounded-[20px] ">
+
+
+                        <div className="flex items-center border border-blue-500 rounded-[20px] sm:ml-[190px]">
 
                             <input className="w-[330px] h-[35px] px-[20px] py-[10px] border-0 bg-transparent focus:outline-none
-                           "
+                           sm:w-[550px] sm:h-[50px]"
                                 type="text"
                                 placeholder="Поиск по сайту..."/>
-                            <p className="pr-[3px] ">
+                            <p className="pr-[10px] ">
                                 <SvgSearch/>
                             </p>
 

@@ -12,10 +12,10 @@ const HomePage = () => {
         <div>
             <Container>
                 <>
-                    {/*<Slider/>*/}
+                    <Slider/>
                     {/*<Category/>*/}
                     {/*<Presentation/>*/}
-                    {/*<News/>*/}
+                    {/*/!*<News/>*!/*/}
                 </>
                 <Outlet/>
             </Container>
