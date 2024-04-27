@@ -1,6 +1,6 @@
 import {createBrowserRouter} from "react-router-dom";
 import {BiArrowFromLeft} from "react-icons/bi";
-import Layout from "./Layout.jsx";
+import Layout from "./layout/Layout.jsx";
 import ErrorElement from "../components/errorElement/ErrorElement.jsx";
 import HomePage from "../page/HomePage/HomePage.jsx";
 import {Route} from "react-router";

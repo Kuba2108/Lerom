@@ -3,7 +3,7 @@ import React from 'react';
 const ThreedModeling = () => {
     return (
         <div>
-            3D-моделирование
+           <h1>3D-моделирование</h1>
         </div>
     );
 };

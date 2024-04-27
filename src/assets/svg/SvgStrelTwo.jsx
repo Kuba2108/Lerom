@@ -1,13 +1,14 @@
 import React from 'react';
 
-const SvgStrel = () => {
+const SvgStrelTwo = () => {
     return (
         <div>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="#004583"/>
+                <path d="M8 16L9.41 14.59L3.83 9L16 9L16 7L3.83 7L9.41 1.41L8 6.99382e-07L-6.99382e-07 8L8 16Z" fill="#004583"/>
             </svg>
+
         </div>
     );
 };
 
-export default SvgStrel;
+export default SvgStrelTwo;
