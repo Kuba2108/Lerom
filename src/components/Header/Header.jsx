@@ -21,34 +21,34 @@ const Header = () => {
 
                             <div className="flex">
                                 <h1 className=""><SvgClock/></h1>
-                                <p className="font-normal pl-[10px] text-[16px] sm:text-[30px]">Пн-Пт с 10:00 до 20:00 <br/>
+                                <p className="font-normal pl-[10px] text-[16px] ">Пн-Пт с 10:00 до 20:00 <br/>
                                     Сб-Вс с 10:00 до 19:00</p>
                             </div>
 
 
                             <div className="flex items-center gap-2 pt-[8px] ">
                                 <h2><SvgCompos/></h2>
-                                <p className="font-normal underline text-[#316087] text-[16px] sm:text-[30px]">Наши салоны</p>
+                                <p className="font-normal underline text-[#316087] text-[16px] ">Наши салоны</p>
                             </div>
 
                         </div>
 
 
                         <div>
-                            <img src={Logo} alt="img_logo" className="w-[185px] h-[92px] sm:w-[390px] h-[245px] "/>
+                            <img src={Logo} alt="img_logo" className="w-[185px] h-[92px] "/>
                         </div>
 
 
 
                         <div className="">
                             <div className="flex ">
-                                <h3 className="text-[14px] font-normal sm:text-[30px] ">Отдел продаж:</h3>
+                                <h3 className="text-[14px] font-normal ">Отдел продаж:</h3>
 
                                 <h1 className="pt-[6px] px-[9px]">
                                     <SvgCall/>
                                 </h1>
 
-                                <p className="text-[14px] font-normal sm:text-[30px]">
+                                <p className="text-[14px] font-normal ">
                                     8 (495) 664-54-57 <br/>
                                     8 (929) 928-86-35
                                 </p>
@@ -58,11 +58,11 @@ const Header = () => {
 
 
                                 <div className="flex pt-[12px]">
-                                    <h1 className="font-normal text-[14px] sm:text-[30px]">Звонки по Росии:</h1>
+                                    <h1 className="font-normal text-[14px] ">Звонки по Росии:</h1>
                                     <p className="pt-[6px] px-[5px] font-normal text-[14px]"><SvgCall/></p>
 
-                                    <p className="font-normal text-[14px] sm:text-[30px]">8-800-000-00-00 <br/> <span
-                                        className="text-red-700 pl-[10px] text-[14px] sm:text-[30px]">
+                                    <p className="font-normal text-[14px] ">8-800-000-00-00 <br/> <span
+                                        className="text-red-700 pl-[10px] text-[14px] ">
                                     Бесплатно
                                 </span>
                                     </p>
@@ -82,10 +82,10 @@ const Header = () => {
 
 
 
-                    <div className="flex justify-around items-center mb-[20px] sm:flex flex-col">
+                    <div className="flex justify-around items-center mb-[20px] ">
 
 
-                        <nav className="flex gap-[43px] text-[16px] font-normal sm:text-[30px] sm:font-semibold sm:mb-[15px]">
+                        <nav className="flex gap-[43px] text-[16px] font-normal ">
 
                             <button onClick={() => setOpen(!open)}
                                     className="flex items-center gap-2 text-red-700 active:text-blue-500 relative">
@@ -102,10 +102,10 @@ const Header = () => {
 
 
 
-                        <div className="flex items-center border border-blue-500 rounded-[20px] sm:ml-[190px]">
+                        <div className="flex items-center border border-blue-500 rounded-[20px] ">
 
                             <input className="w-[330px] h-[35px] px-[20px] py-[10px] border-0 bg-transparent focus:outline-none
-                           sm:w-[550px] sm:h-[50px]"
+                           "
                                 type="text"
                                 placeholder="Поиск по сайту..."/>
                             <p className="pr-[10px] ">

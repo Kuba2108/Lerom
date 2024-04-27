@@ -30,7 +30,7 @@ const Slider = () => {
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper" loop={true}>
                 <SwiperSlide>
                     <div>
-                        <div className="absolute flex flex-col ml-[260px] mt-[50px]  ">
+                        <div className="absolute flex flex-col ml-[260px] mt-[50px] ">
                             <h1 className="font-bold text-[38px] text-white sm:text-[35px] ">Производим мебель <br/>
                                 с 1997 года</h1>
 

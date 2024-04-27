@@ -13,9 +13,9 @@ const HomePage = () => {
             <Container>
                 <>
                     <Slider/>
-                    {/*<Category/>*/}
-                    {/*<Presentation/>*/}
-                    {/*/!*<News/>*!/*/}
+                    <Category/>
+                    <Presentation/>
+                    <News/>
                 </>
                 <Outlet/>
             </Container>
