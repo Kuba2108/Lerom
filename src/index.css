@@ -3,7 +3,7 @@
     margin: 0;
 }
 .container{
-    max-width: 1400px;
+    max-width: 1440px;
     padding: 0 30px;
     margin: 0 auto;
 }
@@ -11,3 +11,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/*@layer{*/
+/*    .paper__fill { @apply{*/
+/*        fill: hsl(0, 0%, 100%)*/
+/*    } } }*/

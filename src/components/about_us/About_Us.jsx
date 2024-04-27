@@ -12,8 +12,7 @@ const AboutUs = () => {
         <div className="w-full m-0 p-0">
             <div className="text-black flex gap-1 justify-center p-2 pr-[493px] text-[13px] ">
                 <p className="active:font-bold">Главная >></p>
-                <p className="active:font-bold">Гостиные >></p>
-                <p className="active:font-bold">Коллекции</p>
+                <p className="active:font-bold">Гостиные</p>
             </div>
 
 
